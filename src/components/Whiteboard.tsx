@@ -13,7 +13,7 @@ import { collection, addDoc, Firestore, onSnapshot, serverTimestamp, updateDoc, 
 
 // Ensure: npm i -D @types/fabric  and  npm i fabric@5
 import { fabric } from "fabric";
-import firebase from "firebase/compat/app";
+//import firebase from "firebase/compat/app";
 
 //export function Whiteboard(): JSX.Element {
 export const Whiteboard: React.FC = () => {

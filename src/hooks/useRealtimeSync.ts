@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import {
   collection,
-  addDoc,
+  //addDoc,
   onSnapshot,
   serverTimestamp,
   query,
@@ -44,7 +44,7 @@ export function useRealtimeSync(
       : {};
 
     const ref = doc(colRef);             // client-generated id
-    const id = ref.id;
+    //const id = ref.id;
 
     (obj as any).__remoteId = ref.id;
     objectsMapRef.current.set(ref.id, obj);
